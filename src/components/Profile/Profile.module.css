@@ -4,6 +4,7 @@
     border: #000 solid 2px;
     border-radius: 10px;
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .mainInfo{
@@ -42,7 +43,7 @@
 }
 
 .statsListItem{
-    border: #2F4F4F solid 1px;
+    border-top: #2F4F4F solid 1px;
     display: flex;
     flex-direction: column;
     width: calc(100% / 3);
@@ -50,6 +51,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.statsListItem:first-child{
+    border-right: #2F4F4F solid 1px;
+}
+
+.statsListItem:last-child{
+border-left: #2F4F4F solid 1px;
 }
 
 .statsListInfo{

@@ -1,0 +1,16 @@
+.friendAvatar{
+    margin-bottom: 10px;
+}
+
+.friendName{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.online{
+    color: #2E8B57;
+}
+
+.offline{
+    color: #FF0000;
+}
